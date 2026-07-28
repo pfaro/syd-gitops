@@ -109,6 +109,17 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
+
+  fleet_maintained_apps:
+    - slug: slack/darwin # Slack for macOS
+      self_service: true
+      categories:
+        - Communication
+    - slug: google-chrome/darwin # Google Chrome for macOS
+      self_service: true
+      categories:
+        - Productivity
+
   packages:
     - path: ../platforms/windows/software/cloudflare-warp.yml
       self_service: false
