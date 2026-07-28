@@ -110,7 +110,7 @@ software:
     #   self_service: true
     #   setup_experience: true
   packages:
-    - Path: ../platforms/windows/software/cloudflare-warp.yml
+    - path: ../platforms/windows/software/cloudflare-warp.yml
       self_service: false
 labels:
   - name: C-Suite
