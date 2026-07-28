@@ -203,6 +203,8 @@ software:
 
 settings:
   webhook_settings:
-    enable_failing_policies_webhook: true
-    destination_url: https://webhook.site/ee50518f-7290-4254-ac72-7cfb2c09e18c
-    host_batch_size: 0
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/ee50518f-7290-4254-ac72-7cfb2c09e18c
+      host_batch_size: 0
+   
