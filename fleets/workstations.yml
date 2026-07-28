@@ -16,6 +16,8 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
+  enable_disk_encryption: true
+  enable_recovery_lock_password: true
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -98,6 +100,9 @@ controls:
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
   macos_updates:
+    deadline: "2026-08-01"
+    minimum_version: "26.6"
+  ipados_updates:
     deadline: "2026-08-01"
     minimum_version: "26.6"
   #   update_new_hosts: true
